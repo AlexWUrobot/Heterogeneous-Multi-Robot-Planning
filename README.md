@@ -10,33 +10,3 @@ The dynamic programming method takes these inputs and calculates the maximum cov
 
 
 Currently, we separately optimize the path planning and the number of workers. In future work, we plan to merge this algorithm to monitor the total remaining battery levels of mobile chargers and change the robots' schedules in real time.
-
-\linecolor // Selected items
-\linecolorb
-
-cp = $\Omega$; s = []   \linecolor  //current capacity; selected items \linecolorb
-
-\For{$i = n$ \KwTo $0$}{
-    \While{$cp >= \omega[i-1] \And item[i][cp] ==i $ }{
-            $\text{s.append.(i)}$
-            
-            $cp = cp - \omega[i-1]$
-    }
-}
-\linecolor // Convert selected items to labels and count
-\linecolorb
-
-$t = s[::-1]$    \linecolor // Reverse the list \linecolorb
-
-$\text{map = \{1: 'A', 2: 'B', 3: 'C' ... \}}$
-
-$t2 = \text{[ map[i]  for i in t  ]}$   \linecolor // Save the list \linecolorb
-
-A = t2.count('A') ...
-
-\linecolor // Output max coverage, numbers of each robots
-\linecolorb
-
-Output $dp[n][\Omega]$, A, B, C ...
-
-\end{algorithm}
