@@ -12,5 +12,10 @@ The dynamic programming method takes these inputs and calculates the maximum cov
 Currently, we separately optimize the path planning and the number of workers. In future work, we plan to merge this algorithm to monitor the total remaining battery levels of mobile chargers and change the robots' schedules in real time.
 
 ![Dynamic programming optimizes the number of AUVs under various battery capacities](https://github.com/AlexWUrobot/Heterogeneous-Multi-Robot-Planning/blob/main/AUV_cover_v4.png)
-*Dynamic programming optimizes the number of AUVs under various battery capacities*
+
+
+<p>
+  <img src="https://github.com/AlexWUrobot/Heterogeneous-Multi-Robot-Planning/blob/main/AUV_cover_v4.png" alt="">
+  <em>Dynamic programming optimizes the number of AUVs under various battery capacities</em>
+</p>
 ![Dynamic programming optimizes the number of UAVs under various battery capacities](https://github.com/AlexWUrobot/Heterogeneous-Multi-Robot-Planning/blob/main/UAV_cover_v4.png)
