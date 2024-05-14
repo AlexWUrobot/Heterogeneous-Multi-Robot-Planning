@@ -15,7 +15,10 @@ Currently, we separately optimize the path planning and the number of workers. I
 
 
 <p>
-  <img src="https://github.com/AlexWUrobot/Heterogeneous-Multi-Robot-Planning/blob/main/AUV_cover_v4.png" alt="">
+  <img src="https://github.com/AlexWUrobot/Heterogeneous-Multi-Robot-Planning/blob/main/" alt="AUV_cover_v4.png">
   <em>Dynamic programming optimizes the number of AUVs under various battery capacities</em>
 </p>
+
+
+
 ![Dynamic programming optimizes the number of UAVs under various battery capacities](https://github.com/AlexWUrobot/Heterogeneous-Multi-Robot-Planning/blob/main/UAV_cover_v4.png)
