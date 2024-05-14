@@ -14,7 +14,8 @@ Currently, we separately optimize the path planning and the number of workers. I
 
 <p align="center">
   <img src="https://github.com/AlexWUrobot/Heterogeneous-Multi-Robot-Planning/blob/main/robot_spec_v5.png" alt="Heterogeneous robots' hypothetical parameters">
-  <em> \n Table 1. Heterogeneous robots' hypothetical parameters</em>
+  <br>
+  <em> Table 1. Heterogeneous robots' hypothetical parameters</em>
 </p>
 
 
