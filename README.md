@@ -2,7 +2,7 @@
 
 During a major accident, various rescue teams from surrounding cities may possess different types of robots. 
 Both the total energy and rescue time are typically constrained. Optimizing the allocation of working robots can be framed as an Unbounded Knapsack Problem (UKP). 
-To address this, a dynamic programming method is introduced and detailed in Algorithm
+To address this, a dynamic programming method is introduced and detailed in Algorithm 3.
 
 Users have the ability to input parameters such as the total battery capacity ($\Omega$) on USV equipped with mobile chargers, and the characteristics of the robots. These robot parameters include individual battery capacities ($\omega$), maximum traveling distance, and the range of vision. The range of vision can be adjusted by altering the camera of AUVs or the flight height of UAVs. The total coverage range ($\nu$) is determined by multiplying the maximum traveling distance and the range of vision. A set of hypothetical parameters is illustrated in Table 1.
 
@@ -10,6 +10,13 @@ The dynamic programming method takes these inputs and calculates the maximum cov
 
 
 Currently, we separately optimize the path planning and the number of workers. In future work, we plan to merge this algorithm to monitor the total remaining battery levels of mobile chargers and change the robots' schedules in real time.
+
+<p align="center">
+  <img src="https://github.com/AlexWUrobot/Heterogeneous-Multi-Robot-Planning/blob/main/Algorithm3.PNG" alt="Heterogeneous robots' hypothetical parameters">
+  <br>
+  <em> Algorithm 3. Robot's Number Optimization</em>
+</p>
+
 
 
 <p align="center">
@@ -31,3 +38,5 @@ Currently, we separately optimize the path planning and the number of workers. I
   <img src="https://github.com/AlexWUrobot/Heterogeneous-Multi-Robot-Planning/blob/main/AUV_cover_v4.png" alt="">
   <em>Fig 11. Dynamic programming optimizes the number of AUVs under various battery capacities</em>
 </p>
+
+
